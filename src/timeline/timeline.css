@@ -1,0 +1,20 @@
+.timeline-container {
+  border-left: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.timeline-line {
+  width: 1px;
+  border-left: 1px solid black;
+  margin-left: 40px;
+}
+
+.timeline-event-container {
+  width: 100%;
+}
+
+.timeline-container h1 {
+  margin-left: 30px;
+}
