@@ -1,0 +1,128 @@
+.portal-logo {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#login-root {
+  background-color: #072933;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.input-error-label {
+  font-weight: bold;
+  align-self: flex-start;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #cb1722;
+  visibility: hidden;
+  font-size: .8em;
+}
+.input-error {
+  border-color: #cb1722;
+}
+
+.login-form-container {
+  margin: auto;
+  width: 400px;
+}
+
+.login-form {
+  height: 350px;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  padding: 15px 50px 10px 50px;
+}
+
+.login-input-box {
+  /*margin-top: 20px;*/
+  padding: 10px;
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
+  font-size: 12px;
+  border: 3px solid #052731;
+}
+
+.login-checkbox-container {
+  width: 100%;
+  /*text-align: left;*/
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-checkbox-container .faux-checkbox {
+  margin-right: 10px;
+}
+
+#login-root .link {
+  text-decoration: none;
+  font-size: .75em;
+
+}
+
+.login-reset-link {
+  margin-top: 5px;
+  align-self: flex-end;
+  text-decoration: none;
+}
+
+#login-root input {
+  font-size: 15px;
+}
+
+.submit {
+  background: #0b4169;
+  color: white;
+  text-transform: uppercase;
+  width: 150px;
+  height: 50px;
+  align-self: center;
+  margin: 60px 0 40px 0;
+  border: none;
+}
+#login-root input[type="submit"]:focus {
+  border: none;
+}
+
+
+.login-checkbox-container .checkbox {
+  display: none;/* <-- hide the default checkbox */
+}
+.login-checkbox-container .faux-checkbox {/* <-- style the artificial checkbox */
+  height: 14px;
+  width: 14px;
+  border: 2px solid #073e67;
+  display: inline-block;
+  position: relative;
+}
+[type=checkbox]:checked + .faux-checkbox:before {/* <-- style its checked state..with a ticked icon */
+  content: '\2714';
+  position: absolute;
+  top: -2px;
+  left: 1px;
+}
+
+.email-form-container h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.email-form-container .input-error-label-label{
+  margin-top: 0;
+  visibility: visible;
+}
+.email-form-container a {
+  margin-top: 30px;
+}
+
+.email-submit{
+  margin-top: 80px;
+}

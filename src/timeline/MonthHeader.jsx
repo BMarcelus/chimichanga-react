@@ -13,7 +13,6 @@ class MonthHeader extends Component {
     window.addEventListener('scroll', this.handleScroll.bind(this));
   }
   handleScroll() {
-    const scroll = document.body.scrollTop;
     const el = ReactDOM.findDOMNode(this);
     const top = el.getBoundingClientRect().top;
     if (top<=0) {
